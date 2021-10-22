@@ -1,0 +1,15 @@
+[package]
+name = "dissonance"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.19"
+dotenv = "0.15.0"
+reqwest = { version = "0.11.6", features = ["rustls-tls", "json"] }
+serde = "1.0.130"
+serenity = "0.10.9"
+tokio = { version = "1.12.0", features = ["rt-multi-thread"] }
+urlencoding = "2.1.0"
